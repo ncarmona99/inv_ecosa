@@ -26,7 +26,7 @@ $query2 = mysqli_query($con, $SQLTrabajadores);
 </head>
 <body>
     <form action="insertarSolicitud.php" id="form" method="POST">
-        <div>
+        <div class="mb-3">
             <table id="myTable" class="display">
                 <h1>Lista de Stock</h1>
                 <thead>
@@ -55,7 +55,7 @@ $query2 = mysqli_query($con, $SQLTrabajadores);
                 </tbody>
             </table>
         </div>
-        <div>
+        <div class="mb-3">
             <h1>Ingresar solicitud</h1>
 
             <label for="solicitante">Seleccione solicitante:</label>
